@@ -71,13 +71,38 @@ nav {
 
 .mensaje h1 {
 
-	font-size: 60px;
+	font-size: 80px;
 	text-shadow: 0.03em 0.03em #333;
+	margin-bottom: 5px;
 }
 
 .mensaje h3 {
 	text-shadow: 0.05em 0.05em #333;
+	font-size: 40px;
+	margin-top: 10px;
 }
+
+/*ESTILOS VIDEO*/
+
+.titulo-video h3 {
+	margin: 0;
+	padding: 20px 0 15px 0;
+	color: #f3b540;
+	text-align: center;
+	background-color: #232323;
+	font-size: 24px;
+}
+
+.video {
+
+	background-color: #232323;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	height: auto;
+	width: auto;
+}
+
 /*ESTILOS CURSOS*/
 
 
@@ -165,7 +190,7 @@ p, h3, div {
 
 .titulo-beneficios h3 {
 	margin: 0;
-	padding: 15px 0 15px 0;
+	padding: 20px 0 15px 0;
 	color: white;
 	text-align: center;
 	background-color: #232323;
