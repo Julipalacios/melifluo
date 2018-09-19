@@ -1,0 +1,246 @@
+ @font-face {
+ 	font-family:"Hasta Grotesk";src:url("hasta_grotesk.eot?") format("eot"),url("hasta_grotesk.woff") format("woff"),url("hasta_grotesk.ttf") format("truetype"),url("hasta_grotesk.svg#HastaGrotesk") format("svg");
+ 	font-weight:normal;
+ 	font-style:normal;
+ }
+
+/*ESTILOS DEL HEADER*/
+
+body {
+	font-family: 'hasta grotesk';
+	margin: 0;
+}
+
+.header figure, li{
+
+	display: inline-block;
+}
+
+li{
+	margin-right: 50px;
+}
+
+nav {
+	display: line;
+	position: absolute;
+	font-size: 24px;
+
+}
+.menu {
+
+	display: inline-block;
+	color: #f3b540;
+}
+
+.menu a {
+	color: #f3b540;
+	text-decoration: none;
+}
+.header {
+
+	background-color: #232323;
+	height: 70px;
+
+}
+
+.logotipo {
+
+	display: inline-block;
+}
+
+/*ESTILOS FRASE MUSICAL*/
+
+.frase {
+	display: block;
+	text-align: center;
+	border:2px solid #f3b540;
+	margin: 10px;
+
+}
+
+/*ESTILOS SECCIÓN VIDEO*/
+
+.panel-video {
+	display: flex;
+	justify-content: space-between;
+}
+
+.video {
+	margin-left: 30px;
+	margin-right: 0;
+	margin-bottom: 15px;
+}
+
+.descripcion {
+
+	position: relative;
+	width: 450px;
+}
+
+.descripcion h2 {
+	text-align: center;
+	padding-bottom: 3px
+	margin-left:0;
+}
+
+.descripcion p {
+
+	border:3px dashed #232323;
+	height: 300px;
+	margin: 0px 15px 10px 10px;
+	padding: 10px;
+}
+
+.descripcion button {
+
+	background: #f3b540;
+	border-radius: 10px;
+	height: 45px;
+	width: 300px;
+	margin-left: 75px;
+	border-color: #f3b540;
+	cursor: pointer;
+}
+
+/*ESTILOS PLAYLIST*/
+
+.titulo-playlist {
+	background-color: white;
+}
+
+.titulo-playlist h3 {
+	margin: 0;
+	padding: 15px 0 0 0;
+	color: #232323;
+	text-align: center;
+	font-size: 24px;
+}
+
+.playlist li {
+
+	display: block;
+	height: 80px;
+	border-bottom: dashed rgba(239,233,65,0.65) 1px;
+}
+
+.playlist span {
+
+	color: #f3b540;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 3px;
+	position: relative;
+	top: 15px;
+}
+
+.playlist a {
+	text-decoration: none;
+	color: #232323;
+	margin-left: 20px;
+	font-weight: bold;
+
+}
+
+.playlist p {
+
+	margin: 5px 0 10px 30px;
+	color: #232323;
+}
+
+.clase:hover {
+
+	color: #f3b540;
+	border: solid #f3b540 2px;
+}
+
+.clase:hover a {
+
+	color: #f3b540;
+}
+
+
+
+/*ESTILOS BENEFICIOS*/
+
+.titulo-beneficios h3 {
+	margin: 0;
+	padding: 15px 0 15px 0;
+	color: white;
+	text-align: center;
+	background-color: #232323;
+	font-size: 24px;
+}
+
+.beneficios {
+
+	background-color: #232323;
+	color: white;
+}
+
+.beneficios-estructura  {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.beneficios-article-a {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 380px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	line-height: 22px;
+
+
+}
+
+.contenedor {
+
+	width: 950px;
+	margin-left: 200px;
+	padding-top: 20px;
+}
+
+.contenedor img {
+
+	height: 95px;
+	width: 95px;
+}
+
+/*ESTILOS FOOTER*/
+
+.footer {
+	background: #f3b540;
+	height: 150px;
+
+}
+
+.contenedor-footer {
+	padding-top: 0px;
+	width: 750px;
+	background-color: #f3b540;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: 550px;
+}
+
+.redes {
+
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+div.redes {
+		text-align: center;
+		padding-left: 45px;
+		padding-top: 10px;
+
+}
+
+
